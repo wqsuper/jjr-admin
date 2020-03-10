@@ -1,0 +1,22 @@
+{
+    "name": "jjr/admin",
+    "description": "jjr admin",
+    "authors": [
+        {
+            "name": "weiqiang",
+            "email": "spwqwork@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "listen/ali-openapi": "^1.0",
+        "guzzlehttp/guzzle": "~6.2.3",
+        "monolog/monolog": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jjr\\Admin\\": "src/"
+        }
+    }
+}
